@@ -4,7 +4,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.sfg.petclinic.model.Owner;
 import com.sfg.petclinic.services.OwnerService;
 
 @RequestMapping("/owners")
@@ -24,4 +23,9 @@ public class OwnerController {
 		return "/owners/index";
 	}
 
+	@RequestMapping("/find")
+	public String findOwners() {
+		return "/notImplemented";
+	}
+	
 }
