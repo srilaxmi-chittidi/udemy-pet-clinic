@@ -2,6 +2,9 @@ package com.sfg.petclinic.model;
 
 import java.io.Serializable;
 
+import jakarta.persistence.MappedSuperclass;
+
+@MappedSuperclass
 public class BaseEntity implements Serializable{
 	
 	/**
