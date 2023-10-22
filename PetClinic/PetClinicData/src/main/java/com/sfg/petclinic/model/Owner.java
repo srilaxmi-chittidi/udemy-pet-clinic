@@ -2,6 +2,11 @@ package com.sfg.petclinic.model;
 
 import java.util.Set;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="owner")
 public class Owner extends Person {
 	
 	
